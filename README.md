@@ -20,4 +20,4 @@ In a world where AI can now understand human intent, I'm on a mission to build s
 
 - GitHub: [github.com/himanshuteotia](https://github.com/himanshuteotia)
 - LinkedIn: [linkedin.com/in/himanshuteotia](https://www.linkedin.com/in/himanshuteotia)
-- Contact: +91 9911012064 / +9718990381
+- Contact: +91 9911012064 / +971528990381
