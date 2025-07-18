@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #000;
+  color: #0f0;
   line-height: 1.6;
 }
 
@@ -25,19 +25,20 @@ body {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #0f0;
+  text-shadow: 0 0 8px #0f0;
 }
 
 .tagline {
   font-size: 1.2rem;
-  color: #666;
+  color: #6f6;
 }
 
 .content {
-  background: white;
+  background: #111;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
 }
 
 .expertise, .mission, .connect {
@@ -45,9 +46,10 @@ body {
 }
 
 h2 {
-  color: #2c3e50;
+  color: #0f0;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+  text-shadow: 0 0 6px #0f0;
 }
 
 ul {
@@ -63,7 +65,7 @@ ul li {
 
 ul li:before {
   content: "•";
-  color: #3498db;
+  color: #0f0;
   position: absolute;
   left: 0;
 }
@@ -76,24 +78,37 @@ ul li:before {
 
 .social-links a {
   text-decoration: none;
-  color: #3498db;
+  color: #0f0;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  border: 1px solid #3498db;
+  border: 1px solid #0f0;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .social-links a:hover {
-  background-color: #3498db;
-  color: white;
+  background-color: #0f0;
+  color: #000;
 }
 
 .contact {
-  color: #666;
+  color: #6f6;
   font-size: 1.1rem;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.6ch;
+  background-color: #0f0;
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.1%, 100% { opacity: 0; }
 }
 
 @media (max-width: 600px) {
