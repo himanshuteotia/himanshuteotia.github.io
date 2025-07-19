@@ -2,7 +2,7 @@
 
 Hi, I'm Himanshu Teotia. 👋
 
-A passionate Node.js developer with over 9 years of experience building scalable, high-performance systems.
+A passionate Node.js developer with over 10+ years of experience building scalable, high-performance systems.
 
 ## Expertise
 
